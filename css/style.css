@@ -1,0 +1,166 @@
+@import url("components/container.css");
+@import url("components/banner.css");
+@import url("components/button.css");
+@import url("components/card.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+  color: #1a1a1a;
+  border: none;
+}
+
+h1, h2, h3 {
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  margin: 0;
+  border: none;
+}
+
+.section-title {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 50px;
+  letter-spacing: 3px;
+  font-size: 32px;
+  color: #000000;
+}
+
+.section-title-left {
+  text-align: left;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  font-size: 28px;
+  color: #000000;
+}
+
+/* --- ABOUT SECTION STYLES --- */
+.about-section {
+  background-color: #f9f9f9; /* Un gris très léger pour détacher de la bannière */
+  padding: 100px 0;
+}
+
+.about-grid {
+  display: flex;
+  align-items: center; /* Aligne le texte et les images au centre verticalement */
+  gap: 60px; /* Espace entre le texte et les images */
+}
+
+.about-text {
+  flex: 1; /* Prend 50% de la largeur */
+}
+
+.about-text p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #444;
+  margin-bottom: 20px;
+}
+
+.founder-intro {
+  font-size: 19px;
+  color: #000000;
+  margin-bottom: 30px;
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+}
+
+.about-images {
+  flex: 1; /* Prend 50% de la largeur */
+  display: flex;
+  flex-direction: column; /* Images l'une sous l'autre */
+  gap: 30px;
+}
+
+/* Placeholder styles - Ces styles s'appliquent même si l'image manque */
+.image-container-founder, .image-container-action {
+  background-color: #eee; /* Gris placeholder */
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.image-container-founder {
+  width: 70%; /* Photo du fondateur plus petite */
+  align-self: flex-end; /* Alignée à droite */
+}
+
+.founder-photo, .action-photo {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.founder-photo {
+  aspect-ratio: 1/1; /* Image carrée pour le portrait */
+}
+
+.action-photo {
+  aspect-ratio: 16/9; /* Image large pour l'action */
+}
+
+.image-caption {
+  text-align: center;
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+  background: white;
+  color: #666;
+}
+
+/* --- FOOTER (Detailed Grid) --- */
+.footer {
+  background: #000000;
+  color: white;
+  padding: 80px 0;
+  margin-top: 120px;
+  border: none;
+}
+
+.footer-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.footer h3 {
+  font-size: 18px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+
+.footer p {
+  margin: 8px 0;
+  font-size: 15px;
+  opacity: 0.8;
+}
+
+.footer a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-legal {
+  text-align: right;
+  align-self: flex-end;
+}
+
+.footer .copyright {
+  font-size: 11px;
+  opacity: 0.4;
+  text-transform: uppercase;
+}
+
+.footer .designer {
+  font-size: 11px;
+  opacity: 0.2;
+}
