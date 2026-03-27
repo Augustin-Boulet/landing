@@ -47,35 +47,35 @@
   -webkit-text-stroke: 1px rgba(0,0,0,0.1); 
 }
 
-/* 1. France : Tout en Bleu uniforme */
+
 .card:nth-child(1) h3 {
-  background-image: none; /* On enlève le dégradé */
-  color: #0055A4; /* Bleu officiel */
+  background-image: none; 
+  color: #0055A4; 
 }
 
-/* 2. Italy : Tout en Vert uniforme */
+
 .card:nth-child(2) h3 {
-  background-image: none; /* On enlève le dégradé */
-  color: #008C45; /* Vert officiel */
+  background-image: none; 
+  color: #008C45; 
 }
 
-/* 3. Belgium : Noir, Jaune, Rouge (Inchangé) */
+
 .card:nth-child(3) h3 {
   background-image: linear-gradient(to right, #000000 30%, #FDDA24 30% 60%, #EF3340 60%);
 }
 
-/* 4. United Kingdom : Bleu/Blanc/Rouge mélangé (Inchangé) */
+
 .card:nth-child(4) h3 {
   background-image: linear-gradient(to right, #00247D 20%, #FFFFFF 20% 40%, #CF142B 40% 60%, #FFFFFF 60% 80%, #00247D 80%);
 }
 
-/* 5. Netherlands : Rouge, Blanc, Bleu (Horizontal - Inchangé) */
+
 .card:nth-child(5) h3 {
   background-image: linear-gradient(to bottom, #AE1C28 33%, #FFFFFF 33% 66%, #21468B 66%);
 }
 
-/* 6. Spain : Plus de Rouge (Bandes Haut/Bas plus épaisses) */
+
 .card:nth-child(6) h3 {
-  /* Rouge 30% en haut, Jaune 40% au milieu, Rouge 30% en bas */
+  
   background-image: linear-gradient(to bottom, #AA151B 30%, #F1BF00 30% 70%, #AA151B 70%);
 }
