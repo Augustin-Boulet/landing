@@ -1,24 +1,24 @@
 .banner {
   color: white;
   text-align: center;
-  /* --- CHANGEMENT CLÉ 1 : LA HAUTEUR --- */
-  /* On augmente drastiquement le padding (l'espace autour du texte) */
-  /* pour forcer la bannière à être très haute. */
-  /* 350px en haut, 350px en bas. Ton image aura de la place. */
+  
+  
+  
+  
   padding: 350px 0; 
   
-  /* --- IMAGE DE FOND --- */
+  
   background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(../../images/background.jpg);
   
-  /* --- RÉGLAGES MAGIQUES --- */
-  /* --- CHANGEMENT CLÉ 2 : PLUS DE DÉFORMATION --- */
-  background-size: cover;      /* L'image remplit tout sans déformation ni écrasement. C'est le réglage 'Pro'. */
+ 
   
-  /* --- CHANGEMENT CLÉ 3 : LE CADRAGE --- */
-  background-position: center bottom; /* Centre l'image et l'aligne par le bas pour voir le kart. */
+  background-size: cover;      
   
-  background-repeat: no-repeat; /* Évite que l'image se duplique. */
-  background-attachment: fixed; /* Conserve l'effet parallaxe stylé. */
+  
+  background-position: center bottom; 
+  
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
 }
 
 .banner h1 {
@@ -26,7 +26,7 @@
   font-family: 'Orbitron', sans-serif;
   margin: 0;
   letter-spacing: 5px;
-  text-shadow: 2px 2px 10px rgba(0,0,0,0.5); /* Ombre sur le texte pour plus de relief */
+  text-shadow: 2px 2px 10px rgba(0,0,0,0.5); 
 }
 
 .banner h2 {
